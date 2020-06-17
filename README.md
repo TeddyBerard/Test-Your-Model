@@ -5,7 +5,11 @@ Test  Your  Model  est une application qui permet d’exploiter des modèles  **
   
 #  Objectif  
   
-L’objetif de Test  Your  Model  est de tester les modèles directement depuis une  url.  
+L’objetif de Test  Your  Model  est de tester les modèles directement depuis une  url. 
+
+##  Demo
+
+![format](images/demoGIF.gif)
   
 #  Utilisation  
   
@@ -46,10 +50,6 @@ La création nécessite une carte graphique.
 	![format](images/CreateMLSelectDataSet.png)
 
 	- Cliquer sur Train
-  
-##  Photo  
-  
-##  Live
 
 
 ---
