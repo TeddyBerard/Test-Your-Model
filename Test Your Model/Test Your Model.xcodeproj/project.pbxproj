@@ -23,8 +23,8 @@
 		3A959B1023A7EF2700FE44AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A959B0E23A7EF2700FE44AE /* Main.storyboard */; };
 		3A959B1223A7EF2A00FE44AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A959B1123A7EF2A00FE44AE /* Assets.xcassets */; };
 		3A959B1523A7EF2A00FE44AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A959B1323A7EF2A00FE44AE /* LaunchScreen.storyboard */; };
+		3AA242982499777700BFA06E /* Miniature.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3AA242972499777700BFA06E /* Miniature.mlmodel */; };
 		3AB9022423A925A300B7CD7F /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9022323A925A300B7CD7F /* ObjectDetector.mlmodel */; };
-		3AB9022623A951A800B7CD7F /* DoctorWhoDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9022523A951A800B7CD7F /* DoctorWhoDetector.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		3A959B1123A7EF2A00FE44AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A959B1423A7EF2A00FE44AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A959B1623A7EF2A00FE44AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA242972499777700BFA06E /* Miniature.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Miniature.mlmodel; sourceTree = "<group>"; };
 		3AB9022323A925A300B7CD7F /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
-		3AB9022523A951A800B7CD7F /* DoctorWhoDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DoctorWhoDetector.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 		3A959B2023A7F6AB00FE44AE /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				3AB9022523A951A800B7CD7F /* DoctorWhoDetector.mlmodel */,
+				3AA242972499777700BFA06E /* Miniature.mlmodel */,
 				3AB9022323A925A300B7CD7F /* ObjectDetector.mlmodel */,
 				3A959B1123A7EF2A00FE44AE /* Assets.xcassets */,
 			);
@@ -238,10 +238,10 @@
 				3A959B0923A7EF2700FE44AE /* AppDelegate.swift in Sources */,
 				3A959B0B23A7EF2700FE44AE /* SceneDelegate.swift in Sources */,
 				3A77655723C504DB00EC448B /* PhotoObjectDetection.swift in Sources */,
+				3AA242982499777700BFA06E /* Miniature.mlmodel in Sources */,
 				3A1CD77D23E19EC100C0BCCB /* LiveObjectDetectorViewController.swift in Sources */,
 				3A0755A623BFA5A900841D07 /* SelectViewController.swift in Sources */,
 				3A82A7E223A80AD6001EF029 /* ImageDetector.swift in Sources */,
-				3AB9022623A951A800B7CD7F /* DoctorWhoDetector.mlmodel in Sources */,
 				3A1CD77B23E17A3600C0BCCB /* ImagePicker.swift in Sources */,
 				3AB9022423A925A300B7CD7F /* ObjectDetector.mlmodel in Sources */,
 				3A77655B23C506E700EC448B /* DetectedObjectTableViewCell.swift in Sources */,

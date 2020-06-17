@@ -16,7 +16,7 @@ class ObjectDetectorViewController: UIViewController {
     var imagePicker: ImagePicker!
     
     /// Update with your model name
-    static let modelName: String = "DoctorWhoDetector"
+    static let modelName: String = "Miniature"
     
     let imageDetector: ImageDetector = ImageDetector()
     var result: [PhotoObjectDetection] = []
@@ -73,6 +73,7 @@ extension ObjectDetectorViewController: UITableViewDelegate, UITableViewDataSour
             DetectedObjectTableViewCell else { return UITableViewCell() }
         
         cell.setupLabel(object: result[indexPath.row])
+        cell.selectionStyle = .none
         
         return cell
     }

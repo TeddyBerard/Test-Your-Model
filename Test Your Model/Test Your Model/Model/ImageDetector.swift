@@ -27,7 +27,6 @@ class ImageDetector {
             let visionModel = try VNCoreMLModel(for: MLModel(contentsOf: modelURL))
             let objectRecognition = VNCoreMLRequest(model: visionModel, completionHandler: { (request, error) in
                 DispatchQueue.main.async(execute: {
-                    // perform all the UI updates on the main queue
                     if let results = request.results {
                         self.drawVisionRequestResults(results, size: bufferSize, detectionOverlay: detectionOverlay)
                     }
@@ -42,7 +41,7 @@ class ImageDetector {
     }
     
     func searchObject(in image: CGImage, with orientation: CGImagePropertyOrientation, completion: @escaping ([PhotoObjectDetection]?) -> Void) {
-        guard let modelURL = Bundle.main.url(forResource: "DoctorWhoDetector", withExtension: "mlmodelc") else {
+        guard let modelURL = Bundle.main.url(forResource: ObjectDetectorViewController.modelName, withExtension: "mlmodelc") else {
             print("Model file not found")
             return
         }
